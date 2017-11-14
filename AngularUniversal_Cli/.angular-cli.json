@@ -6,7 +6,7 @@
   "apps": [
     {
       "root": "ClientApp",
-      "outDir": "dist/browser",
+      "outDir": "wwwroot/dist/browser",
       "assets": [
         "assets",
         "favicon.ico"
@@ -27,7 +27,7 @@
     {
       "name": "ssr",
       "root": "ClientApp",
-      "outDir": "dist/server",
+      "outDir": "ClientApp/dist/server",
       "assets": [
         "assets",
         "favicon.ico"
